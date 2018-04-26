@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sign_up"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:gravity="center"
+    tools:context="com.ashwingk.treasurehunt.SignUpActivity">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Participant 1"
+        android:layout_margin="3dp"
+        android:singleLine="true"
+        android:id="@+id/et_sign_up_participant1"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Participant 2"
+        android:layout_margin="3dp"
+        android:id="@+id/et_sign_up_participant2"
+        android:singleLine="true"
+        android:layout_below="@id/et_sign_up_participant1"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        android:layout_margin="3dp"
+        android:id="@+id/et_sign_up_phone"
+        android:singleLine="true"
+        android:layout_below="@id/et_sign_up_participant2"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:id="@+id/rg_sign_up"
+        android:layout_below="@id/et_sign_up_phone">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Engineering"
+            android:checked="true"
+            android:id="@+id/rb_sign_up_engineering"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Non-Engineering"
+            android:id="@+id/rb_sign_up_non_engineering"/>
+    </RadioGroup>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:layout_below="@id/rg_sign_up"
+        android:id="@+id/btn_sign_up"
+        android:background="@color/colorPrimary"
+        android:textColor="#ffffff"
+        android:text="Sign Up" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#535353"
+        android:gravity="center"
+        android:background="#ffffff"
+        android:id="@+id/tv_sign_up_login"
+        android:text="Already registered? Click here!"
+        android:layout_below="@id/btn_sign_up"/>
+</RelativeLayout>

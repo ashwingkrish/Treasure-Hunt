@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.ashwingk.treasurehunt.RulesActivity"
+    android:padding="16dp">
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorButton"
+    android:text="Understood the rules"
+    android:textColor="#ffff"
+    android:layout_alignParentBottom="true"
+    android:id="@+id/btn_rules_understood"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/btn_rules_understood"
+        android:lineSpacingExtra="4dp"
+        android:text="Treasure hunt\n1. The aim is to find the treasure at the final clue,or to complete as many of the clues as\npossible before the time limit runs out.\n2. Maximum 2 participants in a team.\n3. Each team must have one Android phone with internet connectivity.\n4. The clue has to be found in a particular order,the team cannot skip a clue.Skipping a clue will\nlead to the disqualification of the team.\n5. Obstructing the opponent teams by any means will lead to disqualification.\n6. The team which completes the game first is declared as winner"/>
+</RelativeLayout>

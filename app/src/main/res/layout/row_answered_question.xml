@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_question_number"
+        android:text="Question: e3"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_question_code"
+        android:text="Code: fCk010"
+        android:layout_below="@id/tv_question_number"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_toEndOf="@id/tv_question_code"
+        android:layout_below="@id/tv_question_number"
+        android:gravity="end"
+        android:text="Time answered- 03:55 pm"
+        android:id="@+id/tv_answer_time"
+        android:layout_toRightOf="@id/tv_question_code"/>
+</RelativeLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">TreasureHunt</string>
+    <string name="e1_code">xfJuGOv+RSrxMhUo93UthA==</string>
+    <string name="server_ip">http://54.186.181.40</string>
+    <string name="e2_code">NkCG37kzizQD/YEkP5ehPg==</string>
+    <string name="e3_code">GcJ3b2mB19LsPood8juRUA==</string>
+    <string name="e4_code">SzrKhBbZ8e8czrkp5zGR/g==</string>
+    <string name="e5_code">J6RG5UhHc9mbAQZXjNSwYQ==</string>
+    <string name="e6_code">/h25U+kZ3UXMDtAjwK2zJg==</string>
+    <string name="e7_code">GZSr59WlPbxtXim7otHpSg==</string>
+    <string name="e8_code">Au1rk9EYxByZYLD39SP5Yg==</string>
+    <string name="h1_code">ABqUT4MFMjFsS10qGFq6Uw==</string>
+    <string name="h2_code">3SvevJSS9kuxwHFKDKPG+A==</string>
+    <string name="h3_code">QMxTBdCPUH0l2VtkrBPzGA==</string>
+    <string name="h4_code">CafDNXhVlvkaqUn5pWP+Kw==</string>
+    <string name="m1_code">L2FBFzVgBfXpWRh15s7fqQ==</string>
+    <string name="m2_code">mjCWuH4NW3mtS9qFUIlk7A==</string>
+    <string name="m3_code">T4FLzqI7Iwx3jyhkT9Eb8Q==</string>
+    <string name="m4_code">mgEspfFxJNpZzI32ZHbgvw==</string>
+    <string name="m5_code">BWfuQXch3UjrWsZpiFkiqg==</string>
+    <string name="m6_code">eGz2VYPHTGlUH6tX1XtIxA==</string>
+    <string name="m7_code">G9DDnMWPbQMSkqzta8XuLQ==</string>
+    <string name="m8_code">ywO2pKN3O4H+hII3blaf4A==</string>
+    <string name="title_activity_rules">RulesActivity</string>
+
+</resources>
